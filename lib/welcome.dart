@@ -62,11 +62,11 @@ class WelcomePage extends StatelessWidget {
                           onPressed: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => LoginPage ()),
+                              MaterialPageRoute(builder: (context) => LoginPage()),
                             );
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Colors.deepPurpleAccent,
+                            primary: Colors.red,
                           ),
                           child: Text("Today's Special"),
                         ),
